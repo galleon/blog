@@ -1,0 +1,24 @@
+baseURL = "https://galleon.github.io"
+languageCode = "en-us"
+title = "Tog's website"
+theme = "nix"
+disqusShortname = "guillaumealleon"
+
+
+[params]
+  Name = "galleon"
+  HeaderUsername = "tog"
+  HeaderHostname = "github"
+  About = "This is some info about me"
+  ProfilePicture = "/galleon_round.png"
+  GithubID = "galleon"
+  GnuPGFingerprint = "your_gpg_fingerprint"
+  GoogleAnalytics = "your_google_analytics_id"
+  LinkedInID = "guillaumealleon"
+  TwitterID = "galleon"
+
+[menu]
+  [[menu.header]]
+    name = "posts"
+    weight = 0
+    url = "/posts"
