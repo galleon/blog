@@ -13,5 +13,4 @@ The film despite some weaknesses is trying to show some facts and eliminate some
 
 {{< youtube iSpglxHTJVM >}}
 
-
-
+{{ template "_internal/disqus.html" . }}
