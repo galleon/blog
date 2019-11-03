@@ -17,3 +17,8 @@ This is a comment
 A bit of music now:
 
 {{< audio mp3="/liru.mp3" >}}
+
+column1 | column2
+--------|--------
+r1c1    | r1c2
+r2c1    | r2c2
