@@ -16,6 +16,7 @@ disqusShortname = "guillaumealleon"
   GoogleAnalytics = "your_google_analytics_id"
   LinkedInID = "guillaumealleon"
   TwitterID = "galleon"
+  disqusShortname = "guillaumealleon"
 
 [menu]
   [[menu.header]]
