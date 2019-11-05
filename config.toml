@@ -1,25 +1,53 @@
 baseURL = "https://galleon.github.io"
 languageCode = "en-us"
 title = "Tog's website"
-theme = "nix"
-disqusShortname = "guillaumealleon"
+theme = "hugo-coder"
 
+paginate = 20
+canonifyURLs = true
+
+pygmentsCodeFences = true
+pygmentsCodeFencesGuessSyntax = true
+
+disqusShortname = "guillaumealleon"
+googleAnalytics = ""
 
 [params]
-  Name = "galleon"
-  HeaderUsername = "tog"
-  HeaderHostname = "github"
-  About = "This is some info about me"
-  ProfilePicture = "/galleon_round.png"
-  GithubID = "galleon"
-  GnuPGFingerprint = "your_gpg_fingerprint"
-  GoogleAnalytics = "your_google_analytics_id"
-  LinkedInID = "guillaumealleon"
-  TwitterID = "galleon"
-  disqusShortname = "guillaumealleon"
+    author = "Guillaume Alleon"
+    info = ""
+    description = "Tog's website"
+    keywords = "blog,developer,personal"
+    avatarurl = "/images/avatar.jpg"
 
-[menu]
-  [[menu.header]]
-    name = "posts"
-    weight = 0
-    url = "/posts"
+    favicon_32 = "/images/favicon-32x32.png"
+    favicon_16 = "/images/favicon-16x16.png"
+
+    footerContent = ""
+
+    hideCredits = true
+    hideCopyright = true
+
+    rtl = false
+
+    math = true
+
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github fa-2x"
+    weight = 1
+    url = "https://github.com/galleon/"
+[[params.social]]
+    name = "Twitter"
+    icon = "fab fa-twitter fa-2x"
+    weight = 2
+    url = "https://twitter.com/galleon/"
+[[params.social]]
+    name = "Medium"
+    icon = "fab fa-medium"
+    weight = 3
+    url = ""
+
+[[menu.main]]
+    name = "Blog"
+    weight = 1
+    url  = "/posts/"

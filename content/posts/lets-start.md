@@ -12,5 +12,3 @@ I will start with this movie I discovered recently. *Game Changers* - the name o
 The film despite some weaknesses is trying to show some facts and eliminate some myths. A must see, it might change your life ... a little bit ;-)
 
 {{< youtube iSpglxHTJVM >}}
-
-{{ template "_internal/disqus.html" . }}
