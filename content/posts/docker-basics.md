@@ -7,7 +7,7 @@ categories: ['coding']
 ---
 It has been quite a while!
 
-Some quick recipens on using Docker.
+Some quick recipes on using Docker.
 
 Quite often, I need to test few thing in a controlled environment, nothing is easier than starting a virtual machine in interactive mode. For example, you can do:
 ```bash

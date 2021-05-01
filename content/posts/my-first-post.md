@@ -1,5 +1,5 @@
 ---
-title: "My First Post"
+title: "Embedding a chart in your posts"
 date: 2019-11-01T11:21:27+01:00
 draft: true
 ---
@@ -11,8 +11,9 @@ draft: true
 	mermaid.initialize({ startOnLoad: true });
 </script>
 --->
-Blah blah
+Just in case you want to add some kind of schema in your blog like this one
 
+```
 {{< mermaid align="left" >}}
 graph LR;
     A[Hard edge] -->|Link text| B(Round edge)
@@ -20,13 +21,16 @@ graph LR;
     C -->|One| D[Result one]
     C -->|Two| E[Result two]
 {{< /mermaid >}}
+```
 
-{{< mermaid align="right" >}}
+Just do:
+
+```
+{{</*  mermaid align="left" */>}}
 graph LR;
-    A[Bords droits] -->|Lien texte| B(Bords arondis)
-    B --> C{Décision}
-    C -->|Un| D[Résultat un]
-    C -->|Deux| E[Résultat deux]
-{{< /mermaid >}}
-
-This is my first post with a chart
+    A[Hard edge] -->|Link text| B(Round edge)
+    B --> C{Decision}
+    C -->|One| D[Result one]
+    C -->|Two| E[Result two]
+{{</* /mermaid */>}}
+```
