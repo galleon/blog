@@ -1,7 +1,7 @@
 ---
 title: "Show me my gist"
 date: 2019-11-02T20:24:14+01:00
-draft: true
+draft: false
 ---
 
 Sometimes it is useful to include a `gist` in your post.

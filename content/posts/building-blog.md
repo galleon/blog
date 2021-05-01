@@ -1,5 +1,5 @@
 +++ 
-draft = true
+draft = false
 date = 2021-05-01T18:11:14+02:00
 title = "Updating my blog"
 tags = ['hugo', 'blog']

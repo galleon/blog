@@ -1,7 +1,7 @@
 ---
 title: "Embedding a chart in your posts"
 date: 2019-11-01T11:21:27+01:00
-draft: true
+draft: false
 ---
 
 <!---
