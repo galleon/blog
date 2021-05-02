@@ -22,31 +22,38 @@ googleAnalytics = ""
     keywords = "blog,developer,personal"
     avatarurl = "/images/avatar.jpg"
 
-    favicon_32 = "/images/favicon-32x32.png"
-    favicon_16 = "/images/favicon-16x16.png"
+    favicon_32 = "/img/favicon-32x32.png"
+    favicon_16 = "/img/favicon-16x16.png"
 
-    footerContent = ""
+    footerContent = "Enter a nice text here"
 
-    hideCredits = true
-    hideCopyright = true
+    hideFooter = true
+    hideCredits = false
+    hideCopyright = false
 
     rtl = false
 
     math = true
 
+[taxonomies]
+    category = "categories"
+    series = "series"
+    tag = "tags"
+    author = "authors"
+
 [[params.social]]
     name = "Github"
-    icon = "fab fa-github fa-2x"
+    icon = "fa fa-github fa-2x"
     weight = 1
     url = "https://github.com/galleon/"
 [[params.social]]
     name = "Twitter"
-    icon = "fab fa-twitter fa-2x"
+    icon = "fa fa-twitter fa-2x"
     weight = 2
     url = "https://twitter.com/galleon/"
 [[params.social]]
     name = "Medium"
-    icon = "fab fa-medium"
+    icon = "fa fa-medium"
     weight = 3
     url = ""
 
