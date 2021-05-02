@@ -12,9 +12,6 @@ pygmentsCodeFencesGuessSyntax = true
 disqusShortname = "guillaumealleon"
 googleAnalytics = ""
 
-[taxonomies]
-  series = "series"
-
 [params]
     author = "Guillaume Alleon"
     info = ""
