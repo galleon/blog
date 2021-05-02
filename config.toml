@@ -32,7 +32,7 @@ googleAnalytics = ""
 
     math = true
 
-    colorScheme = "auto"
+    colorScheme = "dark"
     hideColorSchemeToggle = false
 
 [taxonomies]
